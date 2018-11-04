@@ -8,9 +8,9 @@ A sample generator for creating input networks is provided, as well as implement
 
 generator: g++ -O3 -std=c++11 -o generator generator.cpp
 
-first approach: g++ -O3 -std=c++11 -o first main.cpp
+first approach: g++ -O3 -std=c++11 -o first first.cpp
 
-second approach: g++ -O3 -std=c++11 -o second main.cpp
+second approach: g++ -O3 -std=c++11 -o second second.cpp
 
 # Creating Sample Inputs
 
