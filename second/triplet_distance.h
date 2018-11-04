@@ -874,7 +874,7 @@ void preprocessing(Tinfo& T){
 
         /*
          *
-         * Build the reachable table
+         * Build the NF graph
          *
          *
          */
