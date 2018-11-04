@@ -18,8 +18,8 @@ type ./generator λ p e outputFile
 
 It creates a network N as follows:
 
-1. Build a random rooted binary tree T on λ leaves following the uniform model. Let N = T and for a node w in N define d(w) to be the total number of edges in the path from the root of N to w.
-2. Given a parameter 0 <= p <= 1, contract every internal node of N except the root of N with probability p.
+1. Build a random rooted binary tree T on λ leaves following the uniform model. Let N = T.
+2. Given a parameter 0 <= p <= 1, contract every internal node of N except the root of N with probability p. For a node w in N define d(w) to be the total number of edges in the path from the root of N to w.
 3. Given a parameter e >= 0, add e random edges in N as follows. An edge u -> v is created in N if d(u) < d(v). If the total number of edges that can be added happens to be y, where y < e, then we only add those y edges.
 
 # Running the algorithms
